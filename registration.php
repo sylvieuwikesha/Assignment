@@ -24,7 +24,7 @@
             <h4>I can't wait to create an account</h4>
 
             <!-- layout -->
-            <form action="insert.php" method="post">
+            <form action="validation.php" method="post">
                 <div class="row g-1">
                     <div class="col">
                         <div class="position-relative">
@@ -45,7 +45,7 @@
                 </div><br>
                 <div class="row">
                     <div class="position-relative">
-                        <input type="Email" name="Email" class="form-control ps-4"
+                        <input type="email" name="Email" class="form-control ps-4"
                             placeholder="Email">
                         <i class="fa fa-envelope text-primary position-absolute"
                             style="top:10px; left: 18px;" aria-hidden="true"></i>
